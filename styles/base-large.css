@@ -1,9 +1,9 @@
 :root {
-  --mainBlue: #087a6f;
-  --secGray: #595959ff;
-  --mywhite: #f2e9dcff;
-  --mygreen: #cfd11aff;
-  --myorange: rgb(207, 75, 42);
+  --mainBlue: #ff972f;
+  --secGray: rgb(19, 83, 31);
+  --mywhite: #faedcaff;
+  --mygreen: #c1dbb3ff;
+  --myorange: #f2c078ff;
 }
 
 
