@@ -1,0 +1,38 @@
+:root{
+    /* Color Pallette */
+    --mainBlue: #09b5a5;
+    --secGray: #595959ff;
+    --mywhite: #f2e9dcff;
+    --mygreen: #cfd11aff;
+    --myorange: #f06543ff;
+    background-color: black;
+}
+
+
+
+.saberMas{
+    background-color: var(--mainBlue);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* Define the animation */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+/* Apply the animation to the image */
+.bannerLogo{
+    opacity:0.5;
+    animation: fadeInOut 3s ease-in-out 1;
+}
+
