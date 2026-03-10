@@ -1,6 +1,6 @@
 :root {
   --mainBlue: #ff972f;
-  --secGray: rgb(19, 83, 31);
+  --secGray: #424242;
   --mywhite: #faedcaff;
   --mygreen: #c1dbb3ff;
   --myorange: #f2c078ff;
@@ -17,6 +17,14 @@
     --emerald: #7ebc89ff;
     --vivid-emerald: rgb(19, 83, 31);
 }*/
+
+body{
+    background-image: url(../images/wallpaper2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color:var(--secGray);
+    font-size: 1.2em;
+}
 
 h1,h2,h3,h4,h5{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,7 +50,8 @@ header{
     position:fixed;
     width: 100%;
     display:flex;
-    background-color:var(--mainBlue);
+    background-color: transparent;
+    justify-content: space-between;
     z-index:5;
 }
 #headerSpace{
@@ -64,6 +73,7 @@ header{
 
 .logo img{
     padding:5px;
+    width: 150px;
 }
 .logo h2{
     color: var(--mywhite);
@@ -80,6 +90,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items:center;
+    margin-right:5vw;
 
     transition: max-height 0.4s ease-in-out, opacity 0.4s ease, transform 0.4s ease;
 }
@@ -87,12 +98,13 @@ header{
 
 .navbar a {
     text-decoration: none;
-    color: var(--mywhite);
+    color: white;
 
     padding:1em;
     text-align:center;
     text-justify:distribute;
     width:100%;
+    font-size: 1.30vw;
 
     justify-self: center;
     align-self: center;
