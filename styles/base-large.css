@@ -203,6 +203,26 @@ header{
     border:1px solid gray;
 }
 
+.banner img{
+    position:absolute;
+    right:0;
+    width: 25%;
+    height: auto;
+    z-index: 1;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 
 
 /*Main*/
