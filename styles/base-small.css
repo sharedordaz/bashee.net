@@ -12,17 +12,20 @@
 
     }
     .headerSpace{
-        height:10em;
+        height:5em;
     }
 
     .headerSpaceExpanded{
-        height: 13em;
+        height: 8em;
     }
     .hamburguer {
+      position: absolute;
       visibility: visible;
       font-size: 2.5em;
       padding: 0.5em;
       cursor: pointer;
+      left: 80vw;
+      filter: brightness(100%);
     }
 
 
