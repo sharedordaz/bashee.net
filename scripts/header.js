@@ -11,12 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="hamburguer" onclick="toggleMenu()">☰</div>
             <nav class="navbar" id="navbar">
                 <a href="index.html">Home</a>
-                <a href="view1.html">View 1</a>
-                <a href="view2.html">View 2</a>
-                <a href="view3.html">View 3</a>
-                <a href="view4.html">View 4</a>
-                <a href="view5.html">View 5</a>
-                <a href="view6.html">View 6</a>
+                <a href="view1.html">Servicios para ti</a>
+                <a href="view2.html">Servicios para tu negocio</a>
+                <a href="view3.html">Quienes Somos</a>
             </nav>
         `;
     }
