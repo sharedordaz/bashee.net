@@ -11,12 +11,12 @@
         flex-direction: column;
 
     }
-    #headerSpace{
+    .headerSpace{
         height:10em;
     }
 
-    #headerSpaceExpanded{
-        height: 20em;
+    .headerSpaceExpanded{
+        height: 13em;
     }
     .hamburguer {
       visibility: visible;

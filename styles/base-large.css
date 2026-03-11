@@ -54,7 +54,7 @@ header{
     justify-content: space-between;
     z-index:5;
 }
-#headerSpace{
+.headerSpace{
     height:7em;
 }
 
