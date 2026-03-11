@@ -195,15 +195,24 @@ header{
 }
 
 #bannerMessage button{
-    background-color: #25D366;
-    color:black;
-    border: 1px solid white;
-    border-radius: 10px;
+    background-color: black;
+    color:var(--mywhite);
+    border: 5px solid var(--mywhite);
+    border-radius: 50px;
     font-size: 1.2vw;
     padding:0.5em;
     justify-self: center;
 }
+#bannerMessage button img{
+    width: 2.5vw;
+    height: 2.5vw;
+    filter: invert(1);
+    margin-left: 2vw;
+}
 
+#bannerMessage button:hover{
+    filter: invert(0.7) brightness(1.2);
+}
 .banner button:hover{
     filter: brightness(1.1);
 }
@@ -213,7 +222,7 @@ header{
     border:1px solid gray;
 }
 
-.banner img{
+.banner #pet{
     position:absolute;
     right:0;
     width: 25%;
