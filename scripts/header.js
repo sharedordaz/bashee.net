@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="hamburguer" onclick="toggleMenu()">☰</div>
             <nav class="navbar" id="navbar">
                 <a href="index.html">Home</a>
-                <a href="view1.html">Servicios para ti</a>
-                <a href="view2.html">Servicios para tu negocio</a>
-                <a href="view3.html">Quienes Somos</a>
+                <a href="#">Servicios para ti</a>
+                <a href="#">Servicios para tu negocio</a>
+                <a href="#">Quienes Somos</a>
             </nav>
         `;
     }
