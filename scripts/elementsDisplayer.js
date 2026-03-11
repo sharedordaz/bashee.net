@@ -1,6 +1,6 @@
-import { therapyTypes } from "./therapies.js";
+import { therapyTypes } from "./elements.js";
 //console.log(therapyTypes);
-const container = document.getElementById("terapiesContainer");
+const container = document.getElementById("elementsContainer");
 
   container.classList.add("therapy-cards");
 

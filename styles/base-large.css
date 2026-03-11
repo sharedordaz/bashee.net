@@ -194,6 +194,16 @@ header{
     color:var(--mywhite);
 }
 
+#bannerMessage button{
+    background-color: #25D366;
+    color:black;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 1.2vw;
+    padding:0.5em;
+    justify-self: center;
+}
+
 .banner button:hover{
     filter: brightness(1.1);
 }
