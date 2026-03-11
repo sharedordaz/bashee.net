@@ -1,22 +1,32 @@
-export const therapyTypes = [
+export const serviceTypes = [
     {
-      name: "Terapia individual",
-      description: "Apoyo especializado en temas como ansiedad, depresión, estrés, autoestima, duelos, conflictos familiares, entre otros."
+      name: "Soporte tecnico general",
+      description: "",
+      cost: 350,
+      type: "personal"
     },
     {
-      name: "Terapia para adolescentes",
-      description: "Espacio seguro donde los jóvenes pueden expresar sus emociones y trabajar en su desarrollo emocional, académico y social."
+      name: "Instalacion de software",
+      description: "",
+      cost: 150,
+      type: "personal"
     },
     {
-      name: "Terapia infantil",
-      description: "Atención psicológica enfocada en el juego y técnicas especializadas para ayudar a los más pequeños a comprender y gestionar sus emociones."
+      name: "Limpieza",
+      description: "",
+      cost: 300,
+      type: "personal"
     },
     {
-      name: "Terapia de pareja",
-      description: "Un espacio para mejorar la comunicación, resolver conflictos y fortalecer vínculos afectivos."
+      name: "Clonar discos duros",
+      description: "",
+      cost: 300,
+      type: "personal"
     },
     {
-      name: "Terapia familiar",
-      description: "Sesiones enfocadas en mejorar la dinámica familiar, fortalecer la comunicación y resolver conflictos que afectan la convivencia."
+      name: "Eliminar virus",
+      description: "",
+      cost: 200,
+      type: "personal"
     }
 ];
