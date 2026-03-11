@@ -3,6 +3,9 @@
         flex-direction: column;
 
     }
+    #headerSpace{
+        height:10em;
+    }
     .hamburguer {
       visibility: visible;
       font-size: 2.5em;
@@ -51,6 +54,7 @@
     
     #bannerMessage{
         margin:1em;
+        font-size: 2vw;
     }
 
     #about_us div{
