@@ -197,7 +197,7 @@ header{
 #bannerMessage button{
     background-color: black;
     color:var(--mywhite);
-    border: 5px solid var(--mywhite);
+    border: 0.5vw solid var(--mywhite);
     border-radius: 50px;
     font-size: 1.2vw;
     padding:0.5em;
@@ -219,7 +219,7 @@ header{
 
 .banner button:active{
     filter:brightness(0.8);
-    border:1px solid gray;
+    border:1vw solid gray;
 }
 
 .banner #pet{

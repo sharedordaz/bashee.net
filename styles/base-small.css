@@ -1,10 +1,22 @@
 @media (max-width: 481px) {
+    
+    body {
+    background-size: 100vw 50vh;
+    background-position: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    }
+/*HEADER*/    
     header{
         flex-direction: column;
 
     }
     #headerSpace{
         height:10em;
+    }
+
+    #headerSpaceExpanded{
+        height: 20em;
     }
     .hamburguer {
       visibility: visible;
@@ -50,11 +62,20 @@
     #overback{
         flex-direction: column;
         left:5%;
+        width: 60%;
     }
     
     #bannerMessage{
         margin:1em;
         font-size: 2vw;
+        width: 90%;
+        float:left;
+    }
+
+    #bannerMessage button{
+        font-size: 1.5vw;
+        padding:0.5em;
+        max-width: fit-content;
     }
 
     #about_us div{
