@@ -320,25 +320,41 @@ footer a:hover{
     transition: 1s;
 }
 
-#about_us div{
+#about_us .about-content{
     display:flex;
+    align-items:center;
+    gap:2rem;
+    flex-wrap:wrap;
 }
 #about_us h1{
     display:block;
 }
 
-#about_us p{
-    flex: 1;
-    min-width: 300px;
+#about_us ul{
+    flex: 1 1 320px;
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+#about_us .about-text{
+    flex: 1 1 320px;
+    min-width: 260px;
+}
+
+#about_us .about-text p{
+    margin: 0 0 1rem 0;
     text-align: justify;
-    padding:2em;
+    padding: 0.5rem 0;
 }
 
 #about_us img{
-    flex: 1;
-    max-width: 400px;
+    flex: 0 0 400px;
+    max-width: 100%;
     width: 400px;
     height: auto;
     border-radius: 1rem;
     object-fit: cover;
+    float: none;
+    margin-left: auto;
+    align-self: flex-start;
 }

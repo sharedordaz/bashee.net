@@ -81,8 +81,27 @@
         max-width: fit-content;
     }
 
-    #about_us div{
-        flex-direction:column-reverse;
+    /* Ajustes para la sección "about_us" en pantallas pequeñas */
+    #about_us .about-content{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    #about_us .about-text{
+        order: 1;
+        padding: 0 0.5rem;
+    }
+    #about_us .about-text p{
+        padding: 0.25rem 0;
+        margin: 0 0 0.75rem 0;
+    }
+    #about_us img{
+        order: 2;
+        width: 80%;
+        max-width: 360px;
+        height: auto;
+        margin: 0.5rem auto 0 auto;
+        align-self: center;
     }
 
     /*FOOTER*/
