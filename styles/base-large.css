@@ -268,9 +268,11 @@ footer{
 
     display:flex;
 
-    padding:0.5em;
+    padding: 1em 1em 2em 1em;
 
     margin-top:1em;
+    margin-bottom:0em;
+    bottom:0;
 }
 
 footer .social{
