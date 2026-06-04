@@ -61,6 +61,14 @@
       background-color: var(--mywhite);
     }
 
+    .navbar.footer-visible {
+      background-color: white;
+    }
+
+    .navbar.footer-visible a {
+      color: #1c1c1c;
+    }
+
     /*BANNER*/
     #overback{
         flex-direction: column;
