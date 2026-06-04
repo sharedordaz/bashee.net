@@ -38,7 +38,7 @@ function observeFooterVisibility() {
                 header.classList.add('header-visible');
                 if (imgLogo) {
                     imgLogo.src = './images/logo_white_header.png';
-                    imgLogo.style.filter = 'drop-shadow(0 0 5px rgba(255, 255, 255, 0.5))';
+                    imgLogo.style.filter = 'drop-shadow(0 0 5px rgba(255, 255, 255, 0.5))'
                 }
             }
         }
