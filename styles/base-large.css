@@ -112,7 +112,7 @@ header{
     transition: max-height 0.4s ease-in-out;
 }
 
-.footer-visible {
+.header-visible {
     background-color: var(--mainBlue);
     opacity: 0.9;
     transition: opacity 1s ease, background-color 1s ease;
