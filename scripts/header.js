@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (header) {
         header.innerHTML = `
             <div class="logo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-                <img src="./images/logo.png" loading="lazy" alt="logo" width="70" height="70">
+                <img id="header-logo" src="./images/logo.png" loading="lazy" alt="logo" width="70" height="70">
                 <div class="name">
                 </div>
             </div>
